@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char num[4];
+    
+    printf("Enter a three-digit number: ");
+    scanf("%3s", num);
+    
+    
+    printf("The reversal is: %c%c%c\n", num[2], num[1], num[0]);
+    
+    return 0;
+}
